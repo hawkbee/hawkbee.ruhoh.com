@@ -1,12 +1,15 @@
 /* Override some defaults */
 html, body {
-  background-color: #eee;
-  font-family: Verdana, Tahoma;
-  font-size: 1.1em;
+  background-color: #f5f5d5;
+  font-family: Verdana,Serif,Tahoma;
 }
 p {
-  text-indent: 2em;
+  letter-spacing: 0.05em;
+  word-spacing: 0.2em;
   line-height: 1.8em;
+  font-size: 1.1em;
+  color: #111;
+  text-indent: 2em;
 }
 pre {
   /* color: #2e3436; */
@@ -30,7 +33,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* The white background content wrapper */
 .content {
-  background-color: #fff;
+  background-color: #eee;
   padding: 20px;
   margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
   -webkit-border-radius: 0 0 6px 6px;
