@@ -1,22 +1,32 @@
 /* Override some defaults */
 html, body {
-  background-color: #f5f5d5;
   font-family: Verdana,Serif,Tahoma;
 }
 p {
   letter-spacing: 0.05em;
   word-spacing: 0.2em;
   line-height: 1.8em;
-  font-size: 1.1em;
-  color: #111;
+  font-size: 0.9em;
   text-indent: 2em;
 }
 pre {
+  margin: 2em;
   /* color: #2e3436; */
   color: gray
 }
+blockquote {
+  border-left: 5px solid #ccc;
+  margin-left: 1.5em;
+  padding-left: 5px;
+}
 h1, h2, h3, h4, h5, h6 {
-  color: #4e9a06;
+  margin-top: 1em;
+  font-weight: normal;
+  border-top: 1px dashed #aaa;
+  border-left: 1px dashed #aaa;
+  padding: 2px;
+  background-color: #efefff;
+  color: #209020;
 }
 .navbar {
   margin-bottom: 0;
@@ -33,7 +43,6 @@ h1, h2, h3, h4, h5, h6 {
 
 /* The white background content wrapper */
 .content {
-  background-color: #eee;
   padding: 20px;
   margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
   -webkit-border-radius: 0 0 6px 6px;
