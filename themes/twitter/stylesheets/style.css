@@ -1,12 +1,13 @@
 /* Override some defaults */
 html, body {
-  font-family: Verdana,Serif,Tahoma;
+  font-family: Sans,Serif,Tahoma;
 }
 p {
-  letter-spacing: 0.05em;
-  word-spacing: 0.2em;
+  font-family: Lucida Console,Sans,Serif,Tahoma;
+  letter-spacing: 0.1em;
+  word-spacing: 0.5em;
   line-height: 1.8em;
-  font-size: 0.9em;
+  font-size: 1.01em;
   text-indent: 2em;
 }
 pre {
