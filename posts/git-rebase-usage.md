@@ -10,7 +10,7 @@ categories:
 ### rebase的使用方法
 
 	$ git rebase [--onto <newbase>] [<upstream>] [<branch>]
-		将相对于<upstream>分支，在<branch>上的修改，重新应用到<newbase>分支上。
+		将<branch>分支相对于<upstream>分支的修改，重新应用到<newbase>分支上。
 
 	$ git rebase <upstream> <branch>
 		<newbase>默认为<upstream>。
